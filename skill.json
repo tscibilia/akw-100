@@ -1,0 +1,6 @@
+{
+  "name": "arch-keynote",
+  "description": "Rewrite plain-language requests into architectural Keynotes that conform to AKW-100",
+  "license": "MIT",
+  "skills": ["SKILL.md"]
+}

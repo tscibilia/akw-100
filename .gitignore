@@ -1,0 +1,12 @@
+# Scratch space, never published
+.scratch/
+
+# OS and editor noise
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
+
+# Node, if a checker script is ever added
+node_modules/
