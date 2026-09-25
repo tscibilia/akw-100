@@ -1,0 +1,1360 @@
+{
+  "standard": "AKW-100",
+  "generated_from": [
+    "rules/00-scope.md",
+    "rules/10-numbering.md",
+    "rules/20-structure.md",
+    "rules/30-sentences.md",
+    "rules/40-words.md",
+    "rules/50-typography.md",
+    "rules/60-codes.md",
+    "rules/70-conformance.md",
+    "rules/90-archive.md"
+  ],
+  "carry_areas": [
+    "20",
+    "30",
+    "40",
+    "50"
+  ],
+  "checks": [
+    {
+      "order": 1,
+      "section": "1. Structure",
+      "text": "Parent type declared: **Complete** or **Stem**",
+      "ids": [
+        "AKW-20.1"
+      ]
+    },
+    {
+      "order": 2,
+      "section": "1. Structure",
+      "text": "A Variant adds a case; it does not change what the Parent requires",
+      "ids": [
+        "AKW-20.2"
+      ]
+    },
+    {
+      "order": 3,
+      "section": "1. Structure",
+      "text": "A Stem ends with a colon and each Variant completes it grammatically",
+      "ids": [
+        "AKW-20.3"
+      ]
+    },
+    {
+      "order": 4,
+      "section": "1. Structure",
+      "text": "No Variant contradicts its Parent",
+      "ids": [
+        "AKW-20.5"
+      ]
+    },
+    {
+      "order": 5,
+      "section": "1. Structure",
+      "text": "`IN LIEU OF` appears only against an issued legend",
+      "ids": [
+        "AKW-20.6"
+      ]
+    },
+    {
+      "order": 6,
+      "section": "1. Structure",
+      "text": "The requirement is not already written in another Keynote",
+      "ids": [
+        "AKW-20.7"
+      ]
+    },
+    {
+      "order": 7,
+      "section": "1. Structure",
+      "text": "No sentence in a Stem's text is left unperformed by any of its Variants",
+      "ids": [
+        "AKW-20.9"
+      ]
+    },
+    {
+      "order": 8,
+      "section": "1. Structure",
+      "text": "A General Note states the inclusion where the set carries Variant Keynotes",
+      "ids": [
+        "AKW-20.10"
+      ]
+    },
+    {
+      "order": 9,
+      "section": "1. Structure",
+      "text": "A Stem with tagged dispositions ends `AS TAGGED...` and every Variant begins `...`",
+      "ids": [
+        "AKW-20.11"
+      ]
+    },
+    {
+      "order": 10,
+      "section": "2. Numbering",
+      "text": "Form is `[phase][discipline][1-99][letter]`",
+      "ids": [
+        "AKW-10.1"
+      ]
+    },
+    {
+      "order": 11,
+      "section": "2. Numbering",
+      "text": "Phase Prefix `D` present on demolition notes wherever the set holds both demolition and proposed work",
+      "ids": [
+        "AKW-10.2"
+      ]
+    },
+    {
+      "order": 12,
+      "section": "2. Numbering",
+      "text": "Discipline Prefix matches the trade it names",
+      "ids": [
+        "AKW-10.3"
+      ]
+    },
+    {
+      "order": 13,
+      "section": "2. Numbering",
+      "text": "Discipline Prefix used if any series would pass 99",
+      "ids": [
+        "AKW-10.4"
+      ]
+    },
+    {
+      "order": 14,
+      "section": "2. Numbering",
+      "text": "A General Note is `G` with no Phase Prefix and no Discipline Prefix",
+      "ids": [
+        "AKW-10.5"
+      ]
+    },
+    {
+      "order": 15,
+      "section": "2. Numbering",
+      "text": "No period anywhere in the number",
+      "ids": [
+        "AKW-10.6"
+      ]
+    },
+    {
+      "order": 16,
+      "section": "2. Numbering",
+      "text": "Variant letters run uppercase from `A`, immediately after the parent number",
+      "ids": [
+        "AKW-10.7"
+      ]
+    },
+    {
+      "order": 17,
+      "section": "2. Numbering",
+      "text": "No `I` or `O` variant letter",
+      "ids": [
+        "AKW-10.8"
+      ]
+    },
+    {
+      "order": 18,
+      "section": "2. Numbering",
+      "text": "Every gap in the sequence printed as `INTENTIONALLY OMITTED`",
+      "ids": [
+        "AKW-10.9"
+      ]
+    },
+    {
+      "order": 19,
+      "section": "2. Numbering",
+      "text": "After a set is issued, a number is never reassigned to different work",
+      "ids": [
+        "AKW-10.10"
+      ]
+    },
+    {
+      "order": 20,
+      "section": "3. Content",
+      "text": "States what work and what end condition",
+      "ids": [
+        "AKW-40.1"
+      ]
+    },
+    {
+      "order": 21,
+      "section": "3. Content",
+      "text": "States no means and methods",
+      "ids": [
+        "AKW-40.1"
+      ]
+    },
+    {
+      "order": 22,
+      "section": "3. Content",
+      "text": "States no Extent, unless it is a General Note",
+      "ids": [
+        "AKW-40.1",
+        "AKW-20.8"
+      ]
+    },
+    {
+      "order": 23,
+      "section": "3. Content",
+      "text": "Every vague Extent phrase has a trigger or a Reference Document",
+      "ids": [
+        "AKW-40.2"
+      ]
+    },
+    {
+      "order": 24,
+      "section": "3. Content",
+      "text": "No banned end-condition word",
+      "ids": [
+        "AKW-40.3"
+      ]
+    },
+    {
+      "order": 25,
+      "section": "3. Content",
+      "text": "No `NOT LIMITED TO` without a closing end condition",
+      "ids": [
+        "AKW-40.4"
+      ]
+    },
+    {
+      "order": 26,
+      "section": "3. Content",
+      "text": "Named precisely: `FLOOR FINISHES`, not `FLOORS`",
+      "ids": [
+        "AKW-40.10"
+      ]
+    },
+    {
+      "order": 27,
+      "section": "4. Sentences",
+      "text": "No sentence over 25 words",
+      "ids": [
+        "AKW-30.1"
+      ]
+    },
+    {
+      "order": 28,
+      "section": "4. Sentences",
+      "text": "Not over 5 sentences or 80 words",
+      "ids": [
+        "AKW-30.2"
+      ]
+    },
+    {
+      "order": 29,
+      "section": "4. Sentences",
+      "text": "Over a cap, the Keynote is split, not trimmed",
+      "ids": [
+        "AKW-30.3"
+      ]
+    },
+    {
+      "order": 30,
+      "section": "4. Sentences",
+      "text": "Active voice, imperative",
+      "ids": [
+        "AKW-30.4"
+      ]
+    },
+    {
+      "order": 31,
+      "section": "4. Sentences",
+      "text": "No comma splice",
+      "ids": [
+        "AKW-30.5"
+      ]
+    },
+    {
+      "order": 32,
+      "section": "4. Sentences",
+      "text": "An Actor is named only where the work is not the general contractor's",
+      "ids": [
+        "AKW-30.6"
+      ]
+    },
+    {
+      "order": 33,
+      "section": "4. Sentences",
+      "text": "`SHALL` marks a condition the finished work must hold; an action takes the imperative",
+      "ids": [
+        "AKW-30.7"
+      ]
+    },
+    {
+      "order": 34,
+      "section": "4. Sentences",
+      "text": "No courtesy or hedge opener",
+      "ids": [
+        "AKW-30.8"
+      ]
+    },
+    {
+      "order": 35,
+      "section": "5. Words and units",
+      "text": "Slope limits read `NOT STEEPER THAN` / `NOT FLATTER THAN`",
+      "ids": [
+        "AKW-40.5"
+      ]
+    },
+    {
+      "order": 36,
+      "section": "5. Words and units",
+      "text": "No `MIN.` or `MAX.` beside a ratio",
+      "ids": [
+        "AKW-40.5"
+      ]
+    },
+    {
+      "order": 37,
+      "section": "5. Words and units",
+      "text": "`DAMAGE`, not `DAMAGES`",
+      "ids": [
+        "AKW-40.6"
+      ]
+    },
+    {
+      "order": 38,
+      "section": "5. Words and units",
+      "text": "No `&`",
+      "ids": [
+        "AKW-40.7"
+      ]
+    },
+    {
+      "order": 39,
+      "section": "5. Words and units",
+      "text": "Every `/` is a true \"or\"",
+      "ids": [
+        "AKW-40.8"
+      ]
+    },
+    {
+      "order": 40,
+      "section": "5. Words and units",
+      "text": "No abbreviated verbs",
+      "ids": [
+        "AKW-40.9"
+      ]
+    },
+    {
+      "order": 41,
+      "section": "5. Words and units",
+      "text": "Canonical terms from `CONTEXT.md`",
+      "ids": [
+        "AKW-40.11"
+      ]
+    },
+    {
+      "order": 42,
+      "section": "6. Typography",
+      "text": "ALL CAPS",
+      "ids": [
+        "AKW-50.1"
+      ]
+    },
+    {
+      "order": 43,
+      "section": "6. Typography",
+      "text": "Units abbreviated, space before the unit",
+      "ids": [
+        "AKW-50.2"
+      ]
+    },
+    {
+      "order": 44,
+      "section": "6. Typography",
+      "text": "No inch or foot marks",
+      "ids": [
+        "AKW-50.3"
+      ]
+    },
+    {
+      "order": 45,
+      "section": "6. Typography",
+      "text": "Imperial units, unless the prompt or a product name is metric",
+      "ids": [
+        "AKW-50.4"
+      ]
+    },
+    {
+      "order": 46,
+      "section": "6. Typography",
+      "text": "Named products underlined",
+      "ids": [
+        "AKW-50.5"
+      ]
+    },
+    {
+      "order": 47,
+      "section": "6. Typography",
+      "text": "Ratio written `1:12` — no space, no \"to\"",
+      "ids": [
+        "AKW-50.6"
+      ]
+    },
+    {
+      "order": 48,
+      "section": "6. Typography",
+      "text": "No quote marks for emphasis",
+      "ids": [
+        "AKW-50.7"
+      ]
+    },
+    {
+      "order": 49,
+      "section": "6. Typography",
+      "text": "Fraction written `1/4`, not a decimal, not a fraction glyph",
+      "ids": [
+        "AKW-50.8"
+      ]
+    },
+    {
+      "order": 50,
+      "section": "6. Typography",
+      "text": "Parentheses balanced",
+      "ids": [
+        "AKW-50.9"
+      ]
+    },
+    {
+      "order": 51,
+      "section": "7. Code",
+      "text": "Meets the governing code at minimum",
+      "ids": [
+        "AKW-60.1"
+      ]
+    },
+    {
+      "order": 52,
+      "section": "7. Code",
+      "text": "A recited value is measurable in the field",
+      "ids": [
+        "AKW-60.2"
+      ]
+    },
+    {
+      "order": 53,
+      "section": "7. Code",
+      "text": "A recited value carries its qualifying condition",
+      "ids": [
+        "AKW-60.3"
+      ]
+    },
+    {
+      "order": 54,
+      "section": "7. Code",
+      "text": "Cited as `<CODE> §<SECTION>`",
+      "ids": [
+        "AKW-60.4"
+      ]
+    },
+    {
+      "order": 55,
+      "section": "7. Code",
+      "text": "Nothing is looser than code",
+      "ids": [
+        "AKW-60.5"
+      ]
+    },
+    {
+      "order": 56,
+      "section": "7. Code",
+      "text": "Agency named only where it directs a filing, else `AUTHORITY HAVING JURISDICTION`",
+      "ids": [
+        "AKW-60.6"
+      ]
+    },
+    {
+      "order": 57,
+      "section": "7. Code",
+      "text": "Every recited value flagged for human verification",
+      "ids": [
+        "AKW-60.7"
+      ]
+    }
+  ],
+  "rules": [
+    {
+      "id": "AKW-00.1",
+      "area": "00",
+      "section": "",
+      "source": "rules/00-scope.md",
+      "body": "AKW-100 governs the wording of Keynotes and General Notes on\narchitectural construction drawings.",
+      "title": "AKW-100 governs the wording of Keynotes and General Notes on architectural construction drawings.",
+      "check": null
+    },
+    {
+      "id": "AKW-00.2",
+      "area": "00",
+      "section": "",
+      "source": "rules/00-scope.md",
+      "body": "AKW-100 does not govern specification sections, schedules, sheet\ntitles, dimensions, or drawing labels.",
+      "title": "AKW-100 does not govern specification sections, schedules, sheet titles, dimensions, or drawing labels.",
+      "check": null
+    },
+    {
+      "id": "AKW-00.3",
+      "area": "00",
+      "section": "",
+      "source": "rules/00-scope.md",
+      "body": "A Keynote is a contract document. Where a Keynote conflicts with\nanother contract document, remove the conflict. Do not rely on an order of\nprecedence to settle it.",
+      "title": "A Keynote is a contract document",
+      "check": null
+    },
+    {
+      "id": "AKW-00.4",
+      "area": "00",
+      "section": "",
+      "source": "rules/00-scope.md",
+      "body": "AKW-100 conforms to the U.S. National CAD Standard, Uniform Drawing\nSystem, Module 07 *Notations*, which governs format. AKW-100 governs wording.\nWhere the two appear to conflict, NCS wins on format and AKW-100 wins on\nwording.",
+      "title": "AKW-100 conforms to the U.S. National CAD Standard, Uniform Drawing System, Module 07 *Notations*, which governs format",
+      "check": null
+    },
+    {
+      "id": "AKW-00.5",
+      "area": "00",
+      "section": "",
+      "source": "rules/00-scope.md",
+      "body": "Terms used in this standard are defined in `CONTEXT.md`. Use the\ncanonical term. Terms listed under `_Avoid_` are not permitted in a Keynote or\nin this standard.",
+      "title": "Terms used in this standard are defined in `CONTEXT.md`",
+      "check": null
+    },
+    {
+      "id": "AKW-00.6",
+      "area": "00",
+      "section": "",
+      "source": "rules/00-scope.md",
+      "body": "A rule is cited as `AKW-<area>.<number>`. Example: `AKW-40.3`.",
+      "title": "A rule is cited as `AKW-<area>.<number>`",
+      "check": null
+    },
+    {
+      "id": "AKW-00.7",
+      "area": "00",
+      "section": "",
+      "source": "rules/00-scope.md",
+      "body": "A rule ID is never renumbered and never reused. A rule leaves the\nstandard in one of two ways, and either way it is recorded in\n[`rules/90-archive.md`](./90-archive.md)\n\nA stable ID means a review comment written today still resolves in five years.",
+      "title": "A rule ID is never renumbered and never reused",
+      "check": null
+    },
+    {
+      "id": "AKW-00.8",
+      "area": "00",
+      "section": "",
+      "source": "rules/00-scope.md",
+      "body": "Until AKW-100 is first issued, rule IDs may be reorganised freely\nand nothing is archived. **At first issue, IDs freeze.**",
+      "title": "Until AKW-100 is first issued, rule IDs may be reorganised freely and nothing is archived",
+      "check": null
+    },
+    {
+      "id": "AKW-10.1",
+      "area": "10",
+      "section": "",
+      "source": "rules/10-numbering.md",
+      "body": "A Keynote Number has this form:\n\n```\n[Phase Prefix][Discipline Prefix][1-99][Variant Letter]\n```\n\nExample: `D3A`, demolition, note 3, variant A.\nExample: `DE3`, demolition, electrical, note 3.\nExample: `E3`, proposed electrical, note 3.\n\nOnly the number is always present.",
+      "title": "A Keynote Number has this form",
+      "check": {
+        "order": 10,
+        "section": "2. Numbering",
+        "text": "Form is `[phase][discipline][1-99][letter]`"
+      }
+    },
+    {
+      "id": "AKW-10.2",
+      "area": "10",
+      "section": "",
+      "source": "rules/10-numbering.md",
+      "body": "The Phase Prefix separates work to be taken out from work to be\nbuilt:\n\n| Prefix | Meaning |\n|--------|---------|\n| `D` | Demolition |\n| *(none)* | Proposed work |\n\nThe Phase Prefix is **mandatory** on every Keynote in any set that contains both\ndemolition and proposed work. It is not optional and it is not a discipline. A\ncontractor who confuses a demolition note with a proposed note removes something\nyou meant to keep.",
+      "title": "The Phase Prefix separates work to be taken out from work to be built",
+      "check": {
+        "order": 11,
+        "section": "2. Numbering",
+        "text": "Phase Prefix `D` present on demolition notes wherever the set holds both demolition and proposed work"
+      }
+    },
+    {
+      "id": "AKW-10.3",
+      "area": "10",
+      "section": "",
+      "source": "rules/10-numbering.md",
+      "body": "The Discipline Prefix names the trade:\n\n| Prefix | Meaning |\n|--------|---------|\n| `A` | Architectural |\n| `P` | Plumbing and sprinkler |\n| `E` | Electrical |\n| `M` | Mechanical |\n| `S` | Structural |",
+      "title": "The Discipline Prefix names the trade",
+      "check": {
+        "order": 12,
+        "section": "2. Numbering",
+        "text": "Discipline Prefix matches the trade it names"
+      }
+    },
+    {
+      "id": "AKW-10.4",
+      "area": "10",
+      "section": "",
+      "source": "rules/10-numbering.md",
+      "body": "The project decides whether to use a Discipline Prefix. A small\nscope may drop it. If dropped, it is dropped on every Keynote in the set, not\nsome of them.\n\nThe Discipline Prefix becomes **mandatory** when any series would run past 99.\nThe range is 1 to 99 **per series**, so splitting by discipline gives you 99\nnumbers in each. Never continue a series past 99 and never invent a three-digit\nnumber.",
+      "title": "The project decides whether to use a Discipline Prefix",
+      "check": {
+        "order": 13,
+        "section": "2. Numbering",
+        "text": "Discipline Prefix used if any series would pass 99"
+      }
+    },
+    {
+      "id": "AKW-10.5",
+      "area": "10",
+      "section": "",
+      "source": "rules/10-numbering.md",
+      "body": "A General Note uses the prefix `G` and takes no Phase Prefix and no\nDiscipline Prefix. `G` is reserved and is never used as a discipline.",
+      "title": "A General Note uses the prefix `G` and takes no Phase Prefix and no Discipline Prefix",
+      "check": {
+        "order": 14,
+        "section": "2. Numbering",
+        "text": "A General Note is `G` with no Phase Prefix and no Discipline Prefix"
+      }
+    },
+    {
+      "id": "AKW-10.6",
+      "area": "10",
+      "section": "",
+      "source": "rules/10-numbering.md",
+      "body": "A Keynote Number never contains a period. `3.1` reads as `31` at\nplot scale. The period is too small to survive printing, scanning, and copying.",
+      "title": "A Keynote Number never contains a period",
+      "check": {
+        "order": 15,
+        "section": "2. Numbering",
+        "text": "No period anywhere in the number"
+      }
+    },
+    {
+      "id": "AKW-10.7",
+      "area": "10",
+      "section": "",
+      "source": "rules/10-numbering.md",
+      "body": "The parent number runs from 1 to 99. Variant letters run from `A`\nupward, uppercase, and always follow the parent number so the family groups\nvisually.",
+      "title": "The parent number runs from 1 to 99",
+      "check": {
+        "order": 16,
+        "section": "2. Numbering",
+        "text": "Variant letters run uppercase from `A`, immediately after the parent number"
+      }
+    },
+    {
+      "id": "AKW-10.8",
+      "area": "10",
+      "section": "",
+      "source": "rules/10-numbering.md",
+      "body": "The letters `I` and `O` are banned. `I` misreads as `1` and `O`\nmisreads as `0` next to a number. Each is kept as a Reserved Keynote:\n\n```\n2I   INTENTIONALLY OMITTED\n```",
+      "title": "The letters `I` and `O` are banned",
+      "check": {
+        "order": 17,
+        "section": "2. Numbering",
+        "text": "No `I` or `O` variant letter"
+      }
+    },
+    {
+      "id": "AKW-10.9",
+      "area": "10",
+      "section": "",
+      "source": "rules/10-numbering.md",
+      "body": "No number or letter is skipped silently. Any gap in a sequence is\nprinted as `INTENTIONALLY OMITTED`. A silent gap reads as a lost note, and the\ncontractor will ask, or worse, assume.",
+      "title": "No number or letter is skipped silently",
+      "check": {
+        "order": 18,
+        "section": "2. Numbering",
+        "text": "Every gap in the sequence printed as `INTENTIONALLY OMITTED`"
+      }
+    },
+    {
+      "id": "AKW-10.10",
+      "area": "10",
+      "section": "",
+      "source": "rules/10-numbering.md",
+      "body": "Keynote Numbers belong to the project, not to AKW-100. The same\nnumber means different work on a different job. Reusing a project's numbering\nconvention across jobs is good practice, not a requirement.\n\n**Within one project, after a set is issued**, a Keynote Number is never\nreassigned to different work. Archive it as a Reserved Keynote instead. A\ncontractor holding an old bulletin must not read new work under an old number.",
+      "title": "Keynote Numbers belong to the project, not to AKW-100",
+      "check": {
+        "order": 19,
+        "section": "2. Numbering",
+        "text": "After a set is issued, a number is never reassigned to different work"
+      }
+    },
+    {
+      "id": "AKW-20.1",
+      "area": "20",
+      "section": "",
+      "source": "rules/20-structure.md",
+      "body": "Every Parent Keynote is one of two types:\n\n- **Complete**: the Parent is a full requirement and stands alone.\n- **Stem**: the Parent is an opening that its Variants finish.",
+      "title": "Every Parent Keynote is one of two types",
+      "check": {
+        "order": 1,
+        "section": "1. Structure",
+        "text": "Parent type declared: **Complete** or **Stem**"
+      }
+    },
+    {
+      "id": "AKW-20.2",
+      "area": "20",
+      "section": "",
+      "source": "rules/20-structure.md",
+      "body": "A Complete Parent reads as a whole requirement with no Variant\npresent. Its Variants add a case; they do not change what the Parent already\nrequires.",
+      "title": "A Complete Parent reads as a whole requirement with no Variant present",
+      "check": {
+        "order": 2,
+        "section": "1. Structure",
+        "text": "A Variant adds a case; it does not change what the Parent requires"
+      }
+    },
+    {
+      "id": "AKW-20.3",
+      "area": "20",
+      "section": "",
+      "source": "rules/20-structure.md",
+      "body": "A Stem ends with a colon. Each Variant must form a grammatical\nsentence when joined to the Stem. A Stem whose Variants are tagged\ndispositions ends `AS TAGGED...` instead (AKW-20.11).\n\n```\n2    A LICENSED ELECTRICIAN, UNDER A SEPARATE PERMIT, IS RESPONSIBLE FOR:\n2A     REDISTRIBUTION OF EXISTING LIGHTING (SEE RCP)\n```",
+      "title": "A Stem ends with a colon",
+      "check": {
+        "order": 3,
+        "section": "1. Structure",
+        "text": "A Stem ends with a colon and each Variant completes it grammatically"
+      }
+    },
+    {
+      "id": "AKW-20.4",
+      "area": "20",
+      "section": "",
+      "source": "rules/20-structure.md",
+      "body": "A Stem prints in the Keynote Legend directly above its Variants,\nindented one level. A Variant is never printed away from its Stem.",
+      "title": "A Stem prints in the Keynote Legend directly above its Variants, indented one level",
+      "check": null
+    },
+    {
+      "id": "AKW-20.5",
+      "area": "20",
+      "section": "",
+      "source": "rules/20-structure.md",
+      "body": "A Variant never contradicts its Parent. **If it does, the Parent is\ncarrying too much.** Move the contested requirement down into the Variants and\nthe Parent becomes a Stem.\n\nBefore. `D3A` cancels `D3`:\n\n```\nD3    REMOVE FIXTURE. CAP AND REMOVE BACK TO THE SOURCE PANEL.\nD3A   RETAIN AND RELOCATE EMERGENCY LIGHTING PER RCP.\n```\n\nAfter. The contested requirement moved down. The base keeps only what every\nVariant performs:\n\n```\nD3    REMOVE EXISTING LIGHTING FIXTURE OR RECEPTACLE FROM ITS EXISTING\n      LOCATION. PATCH AND REPAIR ANY DAMAGE AND PROVIDE CODE-COMPLIANT\n      FIRE-STOPPING AS NEEDED. AS TAGGED...\nD3A     ...CAP AND REMOVE THE ASSOCIATED CIRCUITING BACK TO THE SOURCE\n        PANEL, OR TO THE NEAREST JUNCTION BOX\nD3B     ...RETAIN AND RELOCATE EMERGENCY LIGHTING WITH ITS CIRCUITING\n        PER PROPOSED RCP, ALIGN HEIGHTS WITH EXISTING ADJACENT LIGHTING\n```",
+      "title": "A Variant never contradicts its Parent",
+      "check": {
+        "order": 4,
+        "section": "1. Structure",
+        "text": "No Variant contradicts its Parent"
+      }
+    },
+    {
+      "id": "AKW-20.6",
+      "area": "20",
+      "section": "",
+      "source": "rules/20-structure.md",
+      "body": "`IN LIEU OF <parent number>,` is the only permitted override, and\nonly where the Keynote Legend has already been issued and renumbering would\nbreak a bulletin or a filed set. It is not a substitute for AKW-20.5.",
+      "title": "`IN LIEU OF <parent number>,` is the only permitted override, and only where the Keynote Legend has already been issu...",
+      "check": {
+        "order": 5,
+        "section": "1. Structure",
+        "text": "`IN LIEU OF` appears only against an issued legend"
+      }
+    },
+    {
+      "id": "AKW-20.7",
+      "area": "20",
+      "section": "",
+      "source": "rules/20-structure.md",
+      "body": "A requirement is written once. Where it is needed again, reference\nit, by Keynote Number, sheet, or schedule. Two copies of a requirement become\ntwo different requirements at the first revision.",
+      "title": "A requirement is written once",
+      "check": {
+        "order": 6,
+        "section": "1. Structure",
+        "text": "The requirement is not already written in another Keynote"
+      }
+    },
+    {
+      "id": "AKW-20.8",
+      "area": "20",
+      "section": "",
+      "source": "rules/20-structure.md",
+      "body": "A General Note carries no Keynote Tag and applies to the whole\nsheet or set. It uses the prefix `G`. Because it has no tag, a General Note\n**may** state its own Extent. This is the only exception to AKW-40.1. Every\nother rule in AKW-100 applies to it unchanged.",
+      "title": "A General Note carries no Keynote Tag and applies to the whole sheet or set",
+      "check": {
+        "order": 22,
+        "section": "3. Content",
+        "text": "States no Extent, unless it is a General Note"
+      }
+    },
+    {
+      "id": "AKW-20.9",
+      "area": "20",
+      "section": "",
+      "source": "rules/20-structure.md",
+      "body": "Every sentence in a Stem's text is performed at every location\nwhere any of its Variants is tagged. Where a Variant would not perform a\nsentence in the Stem - it retains what the Stem removes, or reuses what the\nStem discards - the base carries contested work. Move that sentence into the\naffected Variants, or out into a separate Complete Keynote tagged at the same\nlocation, before the set is issued.",
+      "title": "Every sentence in a Stem's text is performed at every location where any of its Variants is tagged",
+      "check": {
+        "order": 7,
+        "section": "1. Structure",
+        "text": "No sentence in a Stem's text is left unperformed by any of its Variants"
+      }
+    },
+    {
+      "id": "AKW-20.10",
+      "area": "20",
+      "section": "",
+      "source": "rules/20-structure.md",
+      "body": "Every set carrying Variant Keynotes carries a General Note\nstating the inclusion:\n\n```\nG1   WHERE A LOCATION IS TAGGED BY MORE THAN ONE KEYNOTE TAG, THE FULL\n     REQUIREMENT OF EVERY TAG APPLIES AT THAT LOCATION. A LETTERED VARIANT\n     KEYNOTE INCLUDES THE FULL TEXT OF ITS PARENT KEYNOTE.\n```\n\nThe printed note is the only text a takeoff is certain to carry. The rules\nabove govern the writing; this one binds the bid.",
+      "title": "Every set carrying Variant Keynotes carries a General Note stating the inclusion",
+      "check": {
+        "order": 8,
+        "section": "1. Structure",
+        "text": "A General Note states the inclusion where the set carries Variant Keynotes"
+      }
+    },
+    {
+      "id": "AKW-20.11",
+      "area": "20",
+      "section": "",
+      "source": "rules/20-structure.md",
+      "body": "Where a Stem's Variants are tagged dispositions, the Stem ends\n`AS TAGGED...` and every Variant is prefixed `...`. The ellipsis is the\ncontinuation signal: the Variant is part of the Stem's text. A Stem whose\nVariants complete its sentence ends with a colon and no ellipsis\n(AKW-20.3). The ellipsis is a printed flag, not a contract; the General Note\nper AKW-20.10 binds.",
+      "title": "Where a Stem's Variants are tagged dispositions, the Stem ends `AS TAGGED...` and every Variant is prefixed `...`",
+      "check": {
+        "order": 9,
+        "section": "1. Structure",
+        "text": "A Stem with tagged dispositions ends `AS TAGGED...` and every Variant begins `...`"
+      }
+    },
+    {
+      "id": "AKW-30.1",
+      "area": "30",
+      "section": "",
+      "source": "rules/30-sentences.md",
+      "body": "A sentence has 25 words maximum.",
+      "title": "A sentence has 25 words maximum.",
+      "check": {
+        "order": 27,
+        "section": "4. Sentences",
+        "text": "No sentence over 25 words"
+      }
+    },
+    {
+      "id": "AKW-30.2",
+      "area": "30",
+      "section": "",
+      "source": "rules/30-sentences.md",
+      "body": "A Keynote has 5 sentences and 80 words maximum. A Parent and each\nVariant are counted separately.",
+      "title": "A Keynote has 5 sentences and 80 words maximum",
+      "check": {
+        "order": 28,
+        "section": "4. Sentences",
+        "text": "Not over 5 sentences or 80 words"
+      }
+    },
+    {
+      "id": "AKW-30.3",
+      "area": "30",
+      "section": "",
+      "source": "rules/30-sentences.md",
+      "body": "Over either cap, split the Keynote into a Parent and Variants. The\ncaps exist to force that split. A note that will not fit is a note doing two\njobs.",
+      "title": "Over either cap, split the Keynote into a Parent and Variants",
+      "check": {
+        "order": 29,
+        "section": "4. Sentences",
+        "text": "Over a cap, the Keynote is split, not trimmed"
+      }
+    },
+    {
+      "id": "AKW-30.4",
+      "area": "30",
+      "section": "",
+      "source": "rules/30-sentences.md",
+      "body": "Write in the active voice, as an imperative.\n\n- Write: `CLEAN, PATCH, AND REPAIR ALL PARTITIONS.`\n- Not: `ALL PARTITIONS SHALL BE CLEANED, PATCHED, AND REPAIRED.`",
+      "title": "Write in the active voice, as an imperative",
+      "check": {
+        "order": 30,
+        "section": "4. Sentences",
+        "text": "Active voice, imperative"
+      }
+    },
+    {
+      "id": "AKW-30.5",
+      "area": "30",
+      "section": "",
+      "source": "rules/30-sentences.md",
+      "body": "One idea per sentence. A comma splice is a defect. Two independent\nclauses joined by a comma become two sentences.\n\n- Defect: `VENDOR SHALL VERIFY ALL CONDITIONS, IF SCOPE REQUIRES RELOCATION...`\n- Fixed: `VENDOR SHALL VERIFY ALL CONDITIONS. IF SCOPE REQUIRES RELOCATION...`",
+      "title": "One idea per sentence",
+      "check": {
+        "order": 31,
+        "section": "4. Sentences",
+        "text": "No comma splice"
+      }
+    },
+    {
+      "id": "AKW-30.6",
+      "area": "30",
+      "section": "",
+      "source": "rules/30-sentences.md",
+      "body": "The default Actor is the general contractor, declared once in a\nGeneral Note. A Keynote names an Actor **only** when the work is not the general\ncontractor's: a separate-permit trade, a vendor, an owner-supplied installer.\n\nNaming the general contractor on some notes and not others invites the question\nof who performs the unnamed ones.",
+      "title": "The default Actor is the general contractor, declared once in a General Note",
+      "check": {
+        "order": 32,
+        "section": "4. Sentences",
+        "text": "An Actor is named only where the work is not the general contractor's"
+      }
+    },
+    {
+      "id": "AKW-30.7",
+      "area": "30",
+      "section": "",
+      "source": "rules/30-sentences.md",
+      "body": "`SHALL` states a condition the finished work must hold. The\nimperative states an action to perform. Prefer the imperative.\n\n- Action: `REPAINT ALL SURFACES TO MATCH EXISTING IN KIND.`\n- Condition: `A RISE OVER 3 IN. SHALL BE RAMPED, NOT STEEPER THAN 1:12.`",
+      "title": "`SHALL` states a condition the finished work must hold",
+      "check": {
+        "order": 33,
+        "section": "4. Sentences",
+        "text": "`SHALL` marks a condition the finished work must hold; an action takes the imperative"
+      }
+    },
+    {
+      "id": "AKW-30.8",
+      "area": "30",
+      "section": "",
+      "source": "rules/30-sentences.md",
+      "body": "Do not open a Keynote with a courtesy or a hedge. No `PLEASE NOTE`,\n`IT IS INTENDED THAT`, `THE CONTRACTOR IS ADVISED`. Start with the verb or the\nsubject of the work.",
+      "title": "Do not open a Keynote with a courtesy or a hedge",
+      "check": {
+        "order": 34,
+        "section": "4. Sentences",
+        "text": "No courtesy or hedge opener"
+      }
+    },
+    {
+      "id": "AKW-40.1",
+      "area": "40",
+      "section": "The core rule",
+      "source": "rules/40-words.md",
+      "body": "A Keynote states **what** work is required and **what end\ncondition** the work must be left in.\n\nIt does not state **means and methods**: the contractor's sequence, technique,\nequipment, labour, or safety.\n\nIt does not state **Extent**: where the work is or how much of it there is. The\nKeynote Tag carries Extent. Holding Extent out of the words is what makes one\nKeynote serve every location.\n\nNaming a **termination point** or a **physical end state** is scope, not method:\n\n```\nCAP AND REMOVE BACK TO THE SOURCE PANEL, OR TO THE NEAREST JUNCTION BOX\n```\n\nThat fixes where the work stops. How the conductor is pulled stays the\nelectrician's business.",
+      "title": "A Keynote states **what** work is required and **what end condition** the work must be left in",
+      "check": {
+        "order": 20,
+        "section": "3. Content",
+        "text": "States what work and what end condition"
+      }
+    },
+    {
+      "id": "AKW-40.2",
+      "area": "40",
+      "section": "Vagueness",
+      "source": "rules/40-words.md",
+      "body": "Vagueness about Extent is permitted **only** when something else\ndecides it: a stated trigger, or a Reference Document.\n\n| Phrase | Verdict | Decider |\n|--------|---------|---------|\n| `AS SCHEDULED` | Pass | The schedule |\n| `PER PROPOSED RCP` | Pass | The RCP |\n| `IN KIND` | Pass | The existing product |\n| `TYPICAL, U.O.N.` | Pass | The notes that say otherwise |\n| `AS NEEDED IF THE CONDITION UNCOVERS A VOID` | Pass | The stated trigger |\n| `AS NEEDED` (bare) | **Fail** | Nothing |\n| `AS REQUIRED` (bare) | **Fail** | Nothing |\n| `WHERE INDICATED` (bare) | **Fail** | Nothing |",
+      "title": "Vagueness about Extent is permitted **only** when something else decides it",
+      "check": {
+        "order": 23,
+        "section": "3. Content",
+        "text": "Every vague Extent phrase has a trigger or a Reference Document"
+      }
+    },
+    {
+      "id": "AKW-40.3",
+      "area": "40",
+      "section": "Vagueness",
+      "source": "rules/40-words.md",
+      "body": "Vagueness about the **end condition** is banned outright. No\ndecider can rescue it, because the end condition is what the Keynote exists to\nfix.\n\nBanned words and phrases:\n\n```\nMAKE GOOD        MINOR          ADEQUATE       PROPER\nSUITABLE         REASONABLE     NEAT           WORKMANLIKE\nAS APPROPRIATE   TO SUIT        GOOD CONDITION ACCEPTABLE\n```\n\nReplace the adjective with the condition:\n\n- Defect: `MAKE MINOR REPAIRS TO THE HANDRAILS.`\n- Fixed: `REPAIR TO A SOUND SURFACE, FREE OF FLAKING COATING, RUST, AND\n  CORROSION, READY FOR COATING.`\n\nThe condition sets the limit of work. An adjective never does.",
+      "title": "Vagueness about the **end condition** is banned outright",
+      "check": {
+        "order": 24,
+        "section": "3. Content",
+        "text": "No banned end-condition word"
+      }
+    },
+    {
+      "id": "AKW-40.4",
+      "area": "40",
+      "section": "Vagueness",
+      "source": "rules/40-words.md",
+      "body": "`NOT LIMITED TO` widens scope in the contractor's favour, not\nyours. It is banned unless widening is the deliberate intent, and then the\nKeynote must also state the end condition that closes it.",
+      "title": "`NOT LIMITED TO` widens scope in the contractor's favour, not yours",
+      "check": {
+        "order": 25,
+        "section": "3. Content",
+        "text": "No `NOT LIMITED TO` without a closing end condition"
+      }
+    },
+    {
+      "id": "AKW-40.5",
+      "area": "40",
+      "section": "Direction words",
+      "source": "rules/40-words.md",
+      "body": "State a slope limit as `NOT STEEPER THAN 1:8` or `NOT FLATTER THAN\n1:48`. `MIN.` and `MAX.` are banned next to a ratio.\n\nA slope ratio inverts: a bigger second number means a gentler slope. `MINIMUM\nSLOPE OF 1:8` reads to a contractor as permission to build 1:6, and they are\nreading it correctly.\n\n`MIN.` and `MAX.` remain legal with a plain dimension: `3 IN. MIN.`",
+      "title": "State a slope limit as `NOT STEEPER THAN 1:8` or `NOT FLATTER THAN 1:48`",
+      "check": {
+        "order": 35,
+        "section": "5. Words and units",
+        "text": "Slope limits read `NOT STEEPER THAN` / `NOT FLATTER THAN`"
+      }
+    },
+    {
+      "id": "AKW-40.6",
+      "area": "40",
+      "section": "Word choice",
+      "source": "rules/40-words.md",
+      "body": "Use `DAMAGE`, never `DAMAGES`. In a contract document *damages*\nmeans money awarded in a lawsuit.",
+      "title": "Use `DAMAGE`, never `DAMAGES`",
+      "check": {
+        "order": 37,
+        "section": "5. Words and units",
+        "text": "`DAMAGE`, not `DAMAGES`"
+      }
+    },
+    {
+      "id": "AKW-40.7",
+      "area": "40",
+      "section": "Word choice",
+      "source": "rules/40-words.md",
+      "body": "Write `AND`. The ampersand `&` is not a word and is easy to lose at\nplot scale.",
+      "title": "Write `AND`",
+      "check": {
+        "order": 38,
+        "section": "5. Words and units",
+        "text": "No `&`"
+      }
+    },
+    {
+      "id": "AKW-40.8",
+      "area": "40",
+      "section": "Word choice",
+      "source": "rules/40-words.md",
+      "body": "A slash `/` means **or**. It is permitted only where either reading\nis acceptable. Where both items are required, write `AND`.\n\n- `ALTER/AFFECT`: either reading is acceptable. Pass.\n- `POWER/LOW-VOLTAGE`: both are required. **Fail.** Write `POWER AND\n  LOW-VOLTAGE`.",
+      "title": "A slash `/` means **or**",
+      "check": {
+        "order": 39,
+        "section": "5. Words and units",
+        "text": "Every `/` is a true \"or\""
+      }
+    },
+    {
+      "id": "AKW-40.9",
+      "area": "40",
+      "section": "Word choice",
+      "source": "rules/40-words.md",
+      "body": "Do not abbreviate a verb. `PREP` becomes `PREPARE`. Abbreviate\nunits only, per AKW-50.2.",
+      "title": "Do not abbreviate a verb",
+      "check": {
+        "order": 40,
+        "section": "5. Words and units",
+        "text": "No abbreviated verbs"
+      }
+    },
+    {
+      "id": "AKW-40.10",
+      "area": "40",
+      "section": "Word choice",
+      "source": "rules/40-words.md",
+      "body": "Name the thing precisely. `FLOORS` is not `FLOOR FINISHES`. `TRIM`\nis not `CORNER GUARDS, WALL PROTECTION, AND BASE MOLDING`. A subcontractor\nprices the cheapest defensible reading of the word you wrote.",
+      "title": "Name the thing precisely",
+      "check": {
+        "order": 26,
+        "section": "3. Content",
+        "text": "Named precisely: `FLOOR FINISHES`, not `FLOORS`"
+      }
+    },
+    {
+      "id": "AKW-40.11",
+      "area": "40",
+      "section": "Word choice",
+      "source": "rules/40-words.md",
+      "body": "One term per concept, across the whole set. The canonical terms\nare in `CONTEXT.md`. Do not vary a term for style.",
+      "title": "One term per concept, across the whole set",
+      "check": {
+        "order": 41,
+        "section": "5. Words and units",
+        "text": "Canonical terms from `CONTEXT.md`"
+      }
+    },
+    {
+      "id": "AKW-50.1",
+      "area": "50",
+      "section": "",
+      "source": "rules/50-typography.md",
+      "body": "Keynote text is ALL CAPS.",
+      "title": "Keynote text is ALL CAPS.",
+      "check": {
+        "order": 42,
+        "section": "6. Typography",
+        "text": "ALL CAPS"
+      }
+    },
+    {
+      "id": "AKW-50.2",
+      "area": "50",
+      "section": "",
+      "source": "rules/50-typography.md",
+      "body": "Abbreviate units. Put one space between the number and the unit.\n\n```\n3 IN.        1/4 IN.        10 MM        8 FT.\n```",
+      "title": "Abbreviate units",
+      "check": {
+        "order": 43,
+        "section": "6. Typography",
+        "text": "Units abbreviated, space before the unit"
+      }
+    },
+    {
+      "id": "AKW-50.3",
+      "area": "50",
+      "section": "",
+      "source": "rules/50-typography.md",
+      "body": "Never use the inch mark `\"` or the foot mark `'`. They are lost in\nCAD fonts, in scanned sets, and in PDF text search, and they collide with quote\nmarks.",
+      "title": "Never use the inch mark `\"` or the foot mark `'`",
+      "check": {
+        "order": 44,
+        "section": "6. Typography",
+        "text": "No inch or foot marks"
+      }
+    },
+    {
+      "id": "AKW-50.4",
+      "area": "50",
+      "section": "",
+      "source": "rules/50-typography.md",
+      "body": "Default to imperial units. Where the prompt or the project is\nmetric, follow it. Do not convert a unit that belongs to a product's own name:\n`10 MM RUBBER FLOORING` stays as the manufacturer sells it.",
+      "title": "Default to imperial units",
+      "check": {
+        "order": 45,
+        "section": "6. Typography",
+        "text": "Imperial units, unless the prompt or a product name is metric"
+      }
+    },
+    {
+      "id": "AKW-50.5",
+      "area": "50",
+      "section": "",
+      "source": "rules/50-typography.md",
+      "body": "Underline a product called out by name.",
+      "title": "Underline a product called out by name.",
+      "check": {
+        "order": 46,
+        "section": "6. Typography",
+        "text": "Named products underlined"
+      }
+    },
+    {
+      "id": "AKW-50.6",
+      "area": "50",
+      "section": "",
+      "source": "rules/50-typography.md",
+      "body": "Write a ratio as `1:12`. No spaces, no word \"to\".",
+      "title": "Write a ratio as `1:12`",
+      "check": {
+        "order": 47,
+        "section": "6. Typography",
+        "text": "Ratio written `1:12` — no space, no \"to\""
+      }
+    },
+    {
+      "id": "AKW-50.7",
+      "area": "50",
+      "section": "",
+      "source": "rules/50-typography.md",
+      "body": "Do not use quote marks for emphasis. In a Keynote a quote mark\nreads as an inch mark.\n\n- Defect: `REMOVE EXISTING ELECTRICAL 'FIXTURE' OR 'OUTLET'`\n- Fixed: `REMOVE EXISTING LIGHTING FIXTURE OR RECEPTACLE`",
+      "title": "Do not use quote marks for emphasis",
+      "check": {
+        "order": 48,
+        "section": "6. Typography",
+        "text": "No quote marks for emphasis"
+      }
+    },
+    {
+      "id": "AKW-50.8",
+      "area": "50",
+      "section": "",
+      "source": "rules/50-typography.md",
+      "body": "Write a fraction as `1/4`, not a decimal and not a typographic\nfraction glyph.",
+      "title": "Write a fraction as `1/4`, not a decimal and not a typographic fraction glyph.",
+      "check": {
+        "order": 49,
+        "section": "6. Typography",
+        "text": "Fraction written `1/4`, not a decimal, not a fraction glyph"
+      }
+    },
+    {
+      "id": "AKW-50.9",
+      "area": "50",
+      "section": "",
+      "source": "rules/50-typography.md",
+      "body": "A parenthesis must close. An unbalanced parenthesis in an issued\nKeynote is a defect, not a typo, because the reader cannot tell where the aside\nwas meant to end.",
+      "title": "A parenthesis must close",
+      "check": {
+        "order": 50,
+        "section": "6. Typography",
+        "text": "Parentheses balanced"
+      }
+    },
+    {
+      "id": "AKW-60.1",
+      "area": "60",
+      "section": "",
+      "source": "rules/60-codes.md",
+      "body": "Every Keynote meets the governing code at minimum. Code compliance\nis the floor, not the requirement.",
+      "title": "Every Keynote meets the governing code at minimum",
+      "check": {
+        "order": 51,
+        "section": "7. Code",
+        "text": "Meets the governing code at minimum"
+      }
+    },
+    {
+      "id": "AKW-60.2",
+      "area": "60",
+      "section": "",
+      "source": "rules/60-codes.md",
+      "body": "Recite a code value **only** when reciting it makes the requirement\nmeasurable in the field. Otherwise cite the section and let the code govern.\n\n- Recite: `A RISE OVER 1/4 IN. AND UP TO 1/2 IN. SHALL BE BEVELED, NOT STEEPER\n  THAN 1:2.`: an inspector can measure this.\n- Cite: `SEE ADA COMPLIANCE SHEET.`: the whole section does not fit in a note.\n- Defect: `ALL TRANSITIONS TO BE ADA COMPLIANT.`: no threshold, no citation.\n  This moves the entire code lookup onto the contractor and leaves you no ground\n  to reject the work.",
+      "title": "Recite a code value **only** when reciting it makes the requirement measurable in the field",
+      "check": {
+        "order": 52,
+        "section": "7. Code",
+        "text": "A recited value is measurable in the field"
+      }
+    },
+    {
+      "id": "AKW-60.3",
+      "area": "60",
+      "section": "",
+      "source": "rules/60-codes.md",
+      "body": "A recited value carries the condition that makes it legal. A value\nstripped of its qualifying condition becomes a permission you did not intend.\n\n```\n2C   OVER 1/2 IN. TO 3 IN.: RAMPED, NOT STEEPER THAN 1:8, IN EXISTING\n     CONSTRUCTION WHERE SPACE LIMITS REQUIRE\n```\n\nADA §405.2 permits 1:8 only in existing construction, only where space limits\nprohibit 1:12, and only up to a 3 in. rise. Drop those conditions and the\nKeynote permits 1:8 in new construction, which the code does not.",
+      "title": "A recited value carries the condition that makes it legal",
+      "check": {
+        "order": 53,
+        "section": "7. Code",
+        "text": "A recited value carries its qualifying condition"
+      }
+    },
+    {
+      "id": "AKW-60.4",
+      "area": "60",
+      "section": "",
+      "source": "rules/60-codes.md",
+      "body": "Cite as `<CODE> §<SECTION>`. Example: `ADA §303`.",
+      "title": "Cite as `<CODE> §<SECTION>`",
+      "check": {
+        "order": 54,
+        "section": "7. Code",
+        "text": "Cited as `<CODE> §<SECTION>`"
+      }
+    },
+    {
+      "id": "AKW-60.5",
+      "area": "60",
+      "section": "",
+      "source": "rules/60-codes.md",
+      "body": "Stricter than code is permitted. Looser is never permitted. Where a\nKeynote is deliberately stricter, it is still stated as a requirement, not as a\npreference.",
+      "title": "Stricter than code is permitted",
+      "check": {
+        "order": 55,
+        "section": "7. Code",
+        "text": "Nothing is looser than code"
+      }
+    },
+    {
+      "id": "AKW-60.6",
+      "area": "60",
+      "section": "",
+      "source": "rules/60-codes.md",
+      "body": "Naming the local agency is permitted where it directs a filing or\nan inspection: `DOB ELECTRICAL CONTROL UNIT`. Where the Keynote does not depend\non a specific agency, write `AUTHORITY HAVING JURISDICTION`.",
+      "title": "Naming the local agency is permitted where it directs a filing or an inspection",
+      "check": {
+        "order": 56,
+        "section": "7. Code",
+        "text": "Agency named only where it directs a filing, else `AUTHORITY HAVING JURISDICTION`"
+      }
+    },
+    {
+      "id": "AKW-60.7",
+      "area": "60",
+      "section": "",
+      "source": "rules/60-codes.md",
+      "body": "A recited code value is verified by a person before the set is\nissued. An agent may draft it; an agent does not confirm it. Every recited value\nis flagged for that check.",
+      "title": "A recited code value is verified by a person before the set is issued",
+      "check": {
+        "order": 57,
+        "section": "7. Code",
+        "text": "Every recited value flagged for human verification"
+      }
+    }
+  ],
+  "archive": [],
+  "excluded": [
+    {
+      "id": "AKW-00.1",
+      "why": "Governs what AKW-100 covers, not a Keynote."
+    },
+    {
+      "id": "AKW-00.2",
+      "why": "Governs what AKW-100 leaves alone."
+    },
+    {
+      "id": "AKW-00.3",
+      "why": "Governs the document set; a note check reads one Keynote."
+    },
+    {
+      "id": "AKW-00.4",
+      "why": "Governs the standard's relationship to NCS."
+    },
+    {
+      "id": "AKW-00.5",
+      "why": "Governs the standard's own vocabulary; the note-facing half is AKW-40.11."
+    },
+    {
+      "id": "AKW-00.6",
+      "why": "Governs how a rule is cited."
+    },
+    {
+      "id": "AKW-00.7",
+      "why": "Governs rule IDs."
+    },
+    {
+      "id": "AKW-00.8",
+      "why": "Governs rule IDs before first issue."
+    },
+    {
+      "id": "AKW-20.4",
+      "why": "Governs Keynote Legend layout, not the note text."
+    }
+  ],
+  "gaps": {
+    "unchecked": [],
+    "dangling": [],
+    "excluded": [
+      {
+        "id": "AKW-00.1",
+        "why": "Governs what AKW-100 covers, not a Keynote."
+      },
+      {
+        "id": "AKW-00.2",
+        "why": "Governs what AKW-100 leaves alone."
+      },
+      {
+        "id": "AKW-00.3",
+        "why": "Governs the document set; a note check reads one Keynote."
+      },
+      {
+        "id": "AKW-00.4",
+        "why": "Governs the standard's relationship to NCS."
+      },
+      {
+        "id": "AKW-00.5",
+        "why": "Governs the standard's own vocabulary; the note-facing half is AKW-40.11."
+      },
+      {
+        "id": "AKW-00.6",
+        "why": "Governs how a rule is cited."
+      },
+      {
+        "id": "AKW-00.7",
+        "why": "Governs rule IDs."
+      },
+      {
+        "id": "AKW-00.8",
+        "why": "Governs rule IDs before first issue."
+      },
+      {
+        "id": "AKW-20.4",
+        "why": "Governs Keynote Legend layout, not the note text."
+      }
+    ],
+    "excluded_but_checked": [],
+    "excluded_but_undefined": []
+  }
+}

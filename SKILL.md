@@ -21,22 +21,27 @@ cost money and start lawsuits.
 
 ## Read the standard first
 
-Every path below is relative to this file. Read them. Do not work from memory.
+Read three files before you draft. Do not work from memory.
 
-| Read | For |
+| Source | For |
 |------|-----|
-| `rules/40-words.md` | The core rule and every banned word. Read this one first. |
-| `CONTEXT.md` | Canonical terms. Use these, never the `_Avoid_` ones. |
+| `generated/standard.md` | The standard: the core rule, every rule that applies to any Keynote, and the checklist. |
+| `CONTEXT.md` | Canonical terms, and the words to avoid. |
 | `EXAMPLES.md` | Worked examples. Match their tone. |
-| `rules/20-structure.md` | Parent, Variant, Stem, General Note. |
-| `rules/30-sentences.md` | Length caps, voice, Actor. |
-| `rules/10-numbering.md` | Keynote Numbers. |
-| `rules/50-typography.md` | Caps, units, punctuation. |
-| `rules/60-codes.md` | Citing a code versus reciting it. |
-| `rules/70-conformance.md` | The checklist you run before you answer. |
 
-If `rules/` is not next to this file, the install is broken. Ask the user for
-the path. Do not proceed without the rules.
+The checklist inside `generated/standard.md` names a file for each rule it does
+not carry. Read one of those only when its row applies:
+
+| Source | When |
+|------|------|
+| `rules/10-numbering.md` | you must assign or check a Keynote Number |
+| `rules/60-codes.md` | the Keynote recites a code value |
+
+`rules/00-scope.md` and `rules/90-archive.md` govern the standard, not a
+Keynote. Never read them to write one.
+
+If `generated/standard.md` is missing, the repo is not built. Ask the user for
+the repo root. Do not proceed without the standard.
 
 ## 1. Ask
 
@@ -70,10 +75,15 @@ into a Parent and Variants (`AKW-30.3`).
 If a Variant would contradict its Parent, the Parent carries too much. Move the
 contested requirement down. Make the Parent a Stem (`AKW-20.5`).
 
+Where the Variants are tagged dispositions, the Stem ends `AS TAGGED...` and
+every Variant begins `...` (AKW-20.11). If the set carries Variant Keynotes,
+the General Note stating the inclusion must exist; if not, emit it in the
+answer (AKW-20.10).
+
 ## 3. Check
 
-Run every item in `rules/70-conformance.md` against the draft. Fix what fails.
-Re-run. Never report a Keynote you have not checked.
+Run every row of the checklist in `generated/standard.md` against the draft.
+Fix what fails. Re-run. Never report a Keynote you have not checked.
 
 ## 4. Answer
 
@@ -81,13 +91,16 @@ Re-run. Never report a Keynote you have not checked.
 
 ````
 ```
-D3   REMOVE EXISTING LIGHTING FIXTURE OR RECEPTACLE AND ITS CIRCUITING.
-     PATCH AND REPAIR ANY DAMAGE AND PROVIDE CODE-COMPLIANT FIRE-STOPPING
-     AS NEEDED. DISPOSITION:
-D3A    CAP AND REMOVE BACK TO THE SOURCE PANEL, OR TO THE NEAREST
-       JUNCTION BOX
-D3B    RETAIN AND RELOCATE EMERGENCY LIGHTING PER PROPOSED RCP, ALIGN
-       HEIGHTS WITH EXISTING ADJACENT LIGHTING
+G1   WHERE A LOCATION IS TAGGED BY MORE THAN ONE KEYNOTE TAG, THE FULL
+     REQUIREMENT OF EVERY TAG APPLIES AT THAT LOCATION. A LETTERED VARIANT
+     KEYNOTE INCLUDES THE FULL TEXT OF ITS PARENT KEYNOTE.
+D3   REMOVE EXISTING LIGHTING FIXTURE OR RECEPTACLE FROM ITS EXISTING
+     LOCATION. PATCH AND REPAIR ANY DAMAGE AND PROVIDE CODE-COMPLIANT
+     FIRE-STOPPING AS NEEDED. AS TAGGED...
+D3A    ...CAP AND REMOVE THE ASSOCIATED CIRCUITING BACK TO THE SOURCE
+       PANEL, OR TO THE NEAREST JUNCTION BOX. DISCARD THE FIXTURE.
+D3B    ...RETAIN AND RELOCATE EMERGENCY LIGHTING WITH ITS CIRCUITING
+       PER PROPOSED RCP. ALIGN HEIGHTS WITH EXISTING ADJACENT LIGHTING.
 ```
 ````
 
@@ -95,8 +108,10 @@ D3B    RETAIN AND RELOCATE EMERGENCY LIGHTING PER PROPOSED RCP, ALIGN
 
 ```
 Split into a Stem: the removal and the relocation contradicted.   AKW-20.5
+AS TAGGED... form: the Variants are tagged dispositions.          AKW-20.11
+G1 emitted: the set carries Variant Keynotes.                     AKW-20.10
 Dropped "GC SHALL": a bare imperative means the GC.               AKW-30.6
-"MINOR" removed; end condition names the limit instead.            AKW-40.3
+"MINOR" removed; end condition names the limit instead.           AKW-40.3
 "AS SCHEDULED" kept: the finish schedule decides it.              AKW-40.2
 ```
 
@@ -104,7 +119,7 @@ Dropped "GC SHALL": a bare imperative means the GC.               AKW-30.6
 
 ```
 VERIFY: 1:8 is ADA §405.2, existing construction only, space-limited,
-rise up to 3 IN. Confirm the project qualifies.                    AKW-60.7
+rise up to 3 IN. Confirm the project qualifies.                   AKW-60.7
 ```
 
 ## Checking an existing note
@@ -127,4 +142,6 @@ every change.
 When you and the user settle a new rule, write it into the right `rules/` file
 with the next free ID in that area. Add the term to `CONTEXT.md`. IDs are
 stable. Where a new rule replaces an old one, record the old one in
-`rules/90-archive.md` as **Superseded** or **Archived**. Never renumber.
+`rules/90-archive.md` as **Superseded** or **Archived**. Never renumber. Then
+run `just rules generate`: `generated/` is written from `rules/*.md`, never by
+hand, and a stale copy is a stale standard.

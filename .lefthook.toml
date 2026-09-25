@@ -1,0 +1,5 @@
+# generated/ must match rules/*.md, and the rule IDs the skill cites must exist.
+# Runs in well under a second, so the glob is deliberately broad.
+[pre-commit.commands.standard]
+run = "just rules test"
+glob = ["rules/**", "generated/**", "SKILL.md", "CONTEXT.md", "EXAMPLES.md"]

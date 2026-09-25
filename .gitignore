@@ -10,3 +10,9 @@ Thumbs.db
 
 # Node, if a checker script is ever added
 node_modules/
+
+# AI Agents and tools
+.opencode/
+.omp/
+.pi/
+.unlazy/

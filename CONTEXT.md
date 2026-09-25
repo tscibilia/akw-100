@@ -56,6 +56,12 @@ A Keynote that inherits its Parent Keynote and adds one condition. Example:
 `D3A`, which adds emergency lighting to `D3`.
 _Avoid_: Sub-note, child note, exception
 
+**Tagged Disposition**:
+A form of the Stem where each Variant names one way the work ends. The Stem
+ends `AS TAGGED...` and every Variant begins `...`, so every sentence in the
+Stem's text applies at every tagged location.
+_Avoid_: Branch, case, option
+
 **Keynote Number**:
 The identifier: an optional Discipline Prefix, then a number from 1 to 99, then
 an optional variant letter. No period ever. `3.1` reads as `31`.

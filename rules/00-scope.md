@@ -23,10 +23,7 @@ in this standard.
 
 **AKW-00.7** A rule ID is never renumbered and never reused. A rule leaves the
 standard in one of two ways, and either way it is recorded in
-[`rules/90-archive.md`](./90-archive.md):
-
-- **Superseded**: replaced by another rule. The entry names the replacement.
-- **Archived**: withdrawn with no replacement.
+[`rules/90-archive.md`](./90-archive.md)
 
 A stable ID means a review comment written today still resolves in five years.
 
