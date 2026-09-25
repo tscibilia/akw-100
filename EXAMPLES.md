@@ -29,6 +29,10 @@ illustrative; every project sets its own.
    `INTENTIONALLY OMITTED`.
 7. ALL CAPS. Abbreviate units (`IN.`), never the inch mark. Default to imperial.
    Underline a product called out by name.
+8. Where a Stem's Variants are tagged dispositions, the Stem ends
+   `AS TAGGED...` and every Variant begins `...`. Every sentence in the
+   Stem's text is performed at every tagged location. A General Note
+   states the inclusion.
 
 ---
 
@@ -305,3 +309,80 @@ illustrative; every project sets its own.
   adequate. `SIZED PER EQUIPMENT SCHEDULE` points at a document that does.
 - The second one is numbered `2J`, skipping `2I` silently. A reader cannot tell
   whether a note was deleted or a legend is misprinted.
+
+## Example 8: Lighting demolition, base and dispositions (AS TAGGED...)
+
+### Preferred
+
+> **G1** WHERE A LOCATION IS TAGGED BY MORE THAN ONE KEYNOTE TAG, THE FULL
+> REQUIREMENT OF EVERY TAG APPLIES AT THAT LOCATION. A LETTERED VARIANT
+> KEYNOTE INCLUDES THE FULL TEXT OF ITS PARENT KEYNOTE.
+>
+> **D3** REMOVE EXISTING LIGHTING FIXTURE OR RECEPTACLE FROM ITS EXISTING
+> LOCATION. PATCH AND REPAIR ANY DAMAGE, WHETHER CAUSED BY DEMOLITION OR
+> EXISTING. PROVIDE CODE-COMPLIANT FIRE-STOPPING AS NEEDED IF THE CONDITION
+> UNCOVERS A VOID THAT REQUIRES IT. AS TAGGED...
+>
+> **D3A** ...CAP AND REMOVE THE ASSOCIATED CIRCUITING BACK TO THE SOURCE
+> PANEL, OR TO THE NEAREST JUNCTION BOX. DISCARD THE FIXTURE.
+>
+> **D3B** ...RETAIN AND RELOCATE THE EMERGENCY LIGHTING WITH ITS CIRCUITING
+> PER PROPOSED RCP. ALIGN HEIGHTS WITH EXISTING ADJACENT LIGHTING.
+>
+> **D3C** ...RETAIN AND RELOCATE THE EXIT SIGNAGE WITH ITS CIRCUITING PER
+> PROPOSED RCP. ALIGN HEIGHTS WITH EXISTING ADJACENT EXIT SIGNS.
+>
+> **D3D** ...RETAIN AND RELOCATE THE GENERAL LIGHTING WITH ITS CIRCUITING
+> PER PROPOSED RCP. ALIGN HEIGHTS WITH EXISTING ADJACENT LIGHTING.
+>
+> **D3E** ...RETAIN AND RELOCATE THE SCREENS AND TELEVISIONS WITH THEIR
+> CIRCUITING PER PROPOSED RCP.
+
+One tag per location: `D3A` where the fixture is discarded, `D3B` to `D3E`
+where it is relocated. The base's removal is anchored to the existing
+location, so a relocation tag still carries it.
+
+### Avoid
+
+> **D3** REMOVE EXISTING LIGHTING FIXTURE OR RECEPTACLE AND ITS CIRCUITING.
+> PATCH AND REPAIR ANY DAMAGE AND PROVIDE CODE-COMPLIANT FIRE-STOPPING
+> AS NEEDED IF THE CONDITION UNCOVERS A VOID THAT REQUIRES IT.
+> TAGGED DISPOSITION:
+>
+> **D3A** CAP AND REMOVE BACK TO THE SOURCE PANEL, OR TO THE NEAREST
+> JUNCTION BOX
+> **D3B** RETAIN AND RELOCATE EMERGENCY LIGHTING PER PROPOSED RCP. ALIGN
+> HEIGHTS WITH EXISTING ADJACENT LIGHTING.
+> **D3C** RETAIN AND RELOCATE EXIT SIGNAGE PER PROPOSED RCP. ALIGN HEIGHTS
+> WITH EXISTING ADJACENT EXIT SIGNS.
+> **D3D** RETAIN AND RELOCATE GENERAL LIGHTING PER PROPOSED RCP. ALIGN
+> HEIGHTS WITH EXISTING ADJACENT LIGHTING.
+> **D3E** RETAIN AND RELOCATE SCREENS AND TELEVISIONS PER PROPOSED RCP.
+
+### Why
+
+**The Avoid note fails because:**
+
+- `TAGGED DISPOSITION:` is a category label, not a continuation. A reader on
+  the `D3A` line treats it as a separate, complete note and prices one line:
+  cap and remove to the panel. The removal from the location, the patch, and
+  the firestop are the line above, and nothing on the `D3A` line says they
+  apply. AKW-20.9.
+- `AND ITS CIRCUITING` is contested work in the base: D3B through D3E do not
+  remove the circuiting, they run it to the new location. The joined reading
+  of D3B both removes the circuiting and retains the fixture, and a bidder
+  on the `D3B` line alone terminates the circuit at the old location.
+  AKW-20.5, AKW-20.9.
+- No General Note states the inclusion. A takeoff that carries only the
+  tagged line has no contractual ground for the base. AKW-20.10.
+
+**The Preferred note passes because:**
+
+- Every sentence in the base is performed at every tagged location. Removal
+  is anchored to the existing location, so a relocation tag still carries it;
+  nothing is contested.
+- `AS TAGGED...` and the `...` prefix make the continuation visible on every
+  line: the Variant is part of the Stem's text. AKW-20.11.
+- The contested work - cap-back versus re-run - sits in the Variants, where
+  the difference actually is.
+- G1 makes the inclusion contractual for the bid. AKW-20.10.

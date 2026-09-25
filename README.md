@@ -93,8 +93,14 @@ instead.
 | [`rules/40-words.md`](./rules/40-words.md) | The core rule, vagueness, banned words, direction words. |
 | [`rules/50-typography.md`](./rules/50-typography.md) | Caps, units, products, punctuation. |
 | [`rules/60-codes.md`](./rules/60-codes.md) | When to cite a code and when to recite it. |
-| [`rules/70-conformance.md`](./rules/70-conformance.md) | The pass/fail checklist. |
+| [`rules/70-conformance.md`](./rules/70-conformance.md) | The checklist, in the order it runs. |
 | [`rules/90-archive.md`](./rules/90-archive.md) | Rules that were superseded or archived. |
+| [`generated/standard.md`](./generated/standard.md) | Generated always-read, every rule, plus the checklist. |
+| [`generated/index.md`](./generated/index.md) | Generated, every rule ID in checklist order, with sources. |
+
+`generated/` is derived from `rules/` by `just rules generate` and committed, so
+a harness with no python interpreter still gets it. A pre-commit hook fails when
+it drifts from the rule files.
 
 ## Rule IDs
 
