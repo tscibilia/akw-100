@@ -13,6 +13,5 @@ node_modules/
 
 # AI Agents and tools
 .opencode/
-.omp/
 .pi/
 .unlazy/

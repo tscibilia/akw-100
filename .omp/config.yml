@@ -1,0 +1,25 @@
+# Project scope only. The host guard in ~/.omp/agent/config.yml stays in force:
+# eval keeps prompting because it runs arbitrary code, which can read past the
+# bash deny list; tools.restrictedFolders is host-only by design.
+tools:
+  approval:
+    web_search: allow
+bash:
+  # Ordered, first match wins; project rules are evaluated before the host rules.
+  patterns:
+    - match: "git push --force*"
+      approval: prompt
+    - match: "git push -f*"
+      approval: prompt
+    - match: "git add*"
+      approval: allow
+    - match: "git commit*"
+      approval: allow
+    - match: "git push*"
+      approval: allow
+    - match: "git switch -c*"
+      approval: allow
+    - match: "git checkout -b*"
+      approval: allow
+    - match: "gh pr create*"
+      approval: allow
