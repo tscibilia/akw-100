@@ -13,6 +13,8 @@ node_modules/
 
 # AI Agents and tools
 .opencode/
-.omp/
+# Only the project policy is published; sessions and scratch stay local.
+.omp/*
+!.omp/config.yml
 .pi/
 .unlazy/
