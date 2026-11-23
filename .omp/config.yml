@@ -1,5 +1,8 @@
 # Project scope only. The host guard in ~/.omp/agent/config.yml, the host
 # RULES.md, and the secret-guard hook stay in force. Evals are not prompted.
+# OMP imports MCP servers from .opencode/opencode.json; .omp/mcp.json defines
+# litellm-homelab and memini natively so OMP keeps them if OpenCode is removed.
+# Native .omp/mcp.json wins over imported OpenCode entries; keep both in sync.
 tools:
   approval:
     web_search: allow
